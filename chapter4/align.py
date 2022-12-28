@@ -66,10 +66,10 @@ def parse_argument():
     return config
 
 if __name__ == "__main__":
-	assert BIN != "NEED TO BE CHANGED"
+    assert BIN != "NEED TO BE CHANGED"
 
     if not os.path.exists(DIR_PATH):
-         os.mkdir(DIR_PATH)
+        os.mkdir(DIR_PATH)
 
     config = parse_argument()
 
